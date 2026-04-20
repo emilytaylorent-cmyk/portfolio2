@@ -2,7 +2,7 @@ import '../index.css'
 
 
 
-const SectionHolder = ({children}) => {
+const SectionHolder = ({ children }: {children: "any"}) => {
     return (
       <div className='max-w-370 mx-auto px-[10%]'>
         {children}
