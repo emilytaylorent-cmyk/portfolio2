@@ -1,7 +1,7 @@
 
 import '../index.css'
 
-const ImgHolder = ({children}: {children: "any"}) => {
+const ImgHolder = ({children}: {children: React.ReactNode}) => {
     return (
         <div className='flex flex-row justify-between'>
           {children}

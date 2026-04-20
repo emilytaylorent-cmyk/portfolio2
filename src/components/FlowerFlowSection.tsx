@@ -4,7 +4,7 @@ import '../index.css'
 import FlowLeft from "../assets/pictures/FlowerFlowLeft.svg"
 import FlowRight from "../assets/pictures/FlowerFlowRight.svg"
 
-const FlowerFlowSection = ({ children }: {children: "any"}) => {
+const FlowerFlowSection = ({ children }: {children: React.ReactNode}) => {
   return (
     <div className='max-w-370 mx-auto'>
       <img src={FlowLeft} />
